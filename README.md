@@ -7,11 +7,11 @@
 <p align="center">
   B.Tech Computer Science &amp; Engineering @ <b>IMS Engineering College (AKTU)</b> · BS Computer Science @ <b>University of the People</b><br/>
   I build programming languages, CPUs, and operating systems from scratch — and small language models on top of them.<br/>
-  Right now: shipping <b>The Jal Pari Language</b> (v1.5.1, on PyPI) and training a TinyStories GPT to beat GPT-2.
+  Right now: shipping <b>Qasida</b> (v2.0.0, publishing to PyPI with the release) and training a TinyStories GPT to beat GPT-2.
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/jalpari/"><img src="https://img.shields.io/pypi/v/jalpari.svg" alt="PyPI"></a>
+  <a href="https://pypi.org/project/qasida/"><img src="https://img.shields.io/pypi/v/qasida.svg" alt="PyPI"></a>
   <a href="https://www.kaggle.com/arshhdubeyy"><img src="https://img.shields.io/badge/Kaggle-arshhdubeyy-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
@@ -26,8 +26,8 @@
 
 | Project | What it is |
 |---|---|
-| [The Jal Pari Language](https://github.com/themythofsisyphusjayant/RED-MOON-) | A safe, simple, natively fast language built from scratch — v1.5.1, [on PyPI](https://pypi.org/project/jalpari/) (`pip install jalpari`), native/WASM/big32 backends, freestanding mode |
-| [Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-) | Arch-based Linux distro with a macOS-style look, plus JalOS, a teaching OS in Jal Pari — bootable ISO built Oct 2026 |
+| [Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-) | A safe, simple, natively fast language built from scratch — v2.0.0, [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`), native/WASM/big32 backends, freestanding mode |
+| [Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-) | Arch-based Linux distro with a macOS-style look, plus JalOS, a teaching OS in Qasida — bootable ISO built Oct 2026 |
 | [big32](https://github.com/themythofsisyphusjayant/BIG-32) | A 32-bit RISC-V CPU built from zero in Verilog, booting a Linux kernel into early driver init |
 | [OpenMythos](https://github.com/themythofsisyphusjayant/onion-ai) | A miniature recurrent language model, built from scratch — 44M trained on TinyStories, 1B roadmap underway |
 | [Nyx](https://github.com/themythofsisyphusjayant/nyx-crystal-ai) | A decision-intelligence simulator with a live demo |
@@ -41,7 +41,7 @@
 
 ### Featured work
 
-**[The Jal Pari Language](https://github.com/themythofsisyphusjayant/RED-MOON-)** — a programming language built from scratch: static types, no null, immutable by default, checked arithmetic, native/WASM/RISC-V backends, and a freestanding mode on the road to a from-scratch OS. v1.5.1, [on PyPI](https://pypi.org/project/jalpari/).
+**[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** — a programming language built from scratch: static types, no null, immutable by default, checked arithmetic, native/WASM/RISC-V backends, and a freestanding mode on the road to a from-scratch OS. v2.0.0, [on PyPI](https://pypi.org/project/qasida/).
 
 **[Provenance-Aware Belief Aggregation](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION)** — when agents report through different communication conventions, weighting messages by source reliability answers the wrong question. This work proves structural limits of scalar trust weighting and introduces a Bayesian aggregator that decodes messages through inferred latent conventions. 17-page manuscript, headline runs over 190 seeds. [Beginner explainer](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION/blob/main/EXPLAINED_FOR_BEGINNERS.md)
 
