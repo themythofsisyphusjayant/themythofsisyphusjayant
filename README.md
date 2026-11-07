@@ -62,8 +62,8 @@ Plain-language explainers, one analogy per project, with verified vs reported vs
 
 ### Education
 
-- **BS in Computer Science** — University of the People (enrolled Oct 2026; WSCUC-accredited)
-- **B.Tech in Computer Science &amp; Engineering** — IMS Engineering College (AKTU), 2026–2030
+- **BS in Computer Science** — University of the People (WSCUC-accredited)
+- **B.Tech in Computer Science &amp; Engineering** — IMS Engineering College (AKTU)
 
 ---
 
@@ -71,6 +71,14 @@ Plain-language explainers, one analogy per project, with verified vs reported vs
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph, green" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph, seasonal" width="100%"/>
 </p>
 
 <p align="center">
