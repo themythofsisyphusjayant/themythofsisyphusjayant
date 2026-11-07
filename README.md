@@ -62,7 +62,7 @@ Plain-language explainers, one analogy per project, with verified vs reported vs
 
 ### Education
 
-- **BS in Computer Science** — University of the People (enrolled Oct 2026)
+- **BS in Computer Science** — University of the People (enrolled Oct 2026; WSCUC-accredited)
 - **B.Tech in Computer Science &amp; Engineering** — IMS Engineering College (AKTU), 2026–2030
 
 ---
