@@ -64,7 +64,7 @@ Plain-language explainers, one analogy per project, with verified vs reported vs
 
 ### Education
 
-- **BS in Computer Science** — University of the People (WSCUC-accredited)
+- **BS in Computer Science** — University of the People (WSCUC-accredited) — Student ID: C211425106
 - **B.Tech in Computer Science &amp; Engineering** — IMS Engineering College (AKTU)
 
 ---
