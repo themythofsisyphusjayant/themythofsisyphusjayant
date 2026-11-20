@@ -1,102 +1,29 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Jayant%20Dubey&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="Jayant Dubey header" width="100%"/>
+# Jayant Dubey
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&width=700&lines=Hi%2C+I%27m+Jayant+Dubey;I+build+programming+languages+from+scratch;I+build+CPUs+from+zero;I+build+operating+systems+from+scratch" alt="Typing intro" />
-</p>
+B.Tech in Computer Science & Engineering, IMS Engineering College (AKTU), and BS in Computer Science, University of the People.
 
-<p align="center">
-  B.Tech Computer Science &amp; Engineering @ <b>IMS Engineering College (AKTU)</b> · BS Computer Science @ <b>University of the People</b><br/>
-  I build programming languages, CPUs, and operating systems from scratch — and small language models on top of them.<br/>
-  Right now: shipping <b>Qasida</b> v2.0.0 (<a href="https://pypi.org/project/qasida/">on PyPI</a>) and self-hosting its compiler — the lexer and parser are done and verified, the type checker is in progress.
-</p>
+I work on multi-agent systems, Bayesian inference, small language models, and hardware built from zero. Most of my work is building the stack myself: the language, the CPU it runs on, and the operating system on top.
 
-<p align="center">
-  <a href="https://pypi.org/project/qasida/"><img src="https://img.shields.io/pypi/v/qasida.svg" alt="PyPI"></a>
-  <a href="https://www.kaggle.com/arshhdubeyy"><img src="https://img.shields.io/badge/Kaggle-arshhdubeyy-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/Verilog-6E4C9E?style=flat-square" alt="Verilog">
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
-</p>
+## Featured work
 
----
+- **[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** — a programming language built from scratch: static types, no null, immutable by default, checked arithmetic. v2.3.0 (16 Nov 2026), [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`). The compiler is self-hosting — it compiles itself — and has been the default since 11 Nov 2026. Native, WASM, and RISC-V backends; freestanding mode in progress.
+- **[big32](https://github.com/themythofsisyphusjayant/BIG-32)** — a 32-bit RISC-V CPU built from zero in Verilog: a pipelined RV32IMAC core, SBI firmware, device tree, CLINT, PLIC, virtio block. Linux 6.6.52 boots in simulation into early driver initialisation; a full boot to shell is work in progress.
+- **[MOON-OS](https://github.com/themythofsisyphusjayant/MOON-OS)** — an operating system written entirely in Qasida, targeting big32, with no Linux anywhere. Kernel, scheduler, filesystem, shell, and GUI are in progress; freestanding kernels run on big32.
+- **[OpenMythos](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM)** — a miniature recurrent language model built from scratch and trained on a single T4. The 44M model trained on TinyStories; a 1.06B configuration is written, not yet trained.
+- **[Nyx](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI)** — a deterministic decision-intelligence simulator: a miniature society of agents debates a hard decision and produces a strategic forecast of risks and fragile assumptions. Same seed, same outcome. [Live demo](https://nyx-crystal-ai.lovable.app/)
+- **[Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-)** — an Arch-based Linux distribution with a macOS-style desktop, shipping JalOS, a teaching operating system written in Qasida. Bootable ISO built October 2026.
 
-### Projects
+## Manuscripts
 
-| Project | What it is |
-|---|---|
-| [Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-) | A safe, simple, natively fast language built from scratch — v2.0.0, [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`), native/WASM/big32 backends, freestanding mode |
-| [big32](https://github.com/themythofsisyphusjayant/BIG-32) | A 32-bit RISC-V CPU built from zero in Verilog, booting a Linux kernel into early driver init |
-| [Provenance-Aware Belief Aggregation](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION) | A 17-page research manuscript on multi-agent communication |
-| [Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-) | Arch-based Linux distro with a macOS-style look, plus JalOS, a teaching OS in Qasida — bootable ISO built Oct 2026 |
-| [OpenMythos](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM) | A miniature recurrent language model, built from scratch — 44M trained on TinyStories, 1B roadmap underway |
-| [Nyx](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI) | A decision-intelligence simulator with a live demo |
-| [ASIC Puzzle 2026](https://github.com/themythofsisyphusjayant/ASIC-PUZZLE-2026-SOLUTION) | A chip reverse-engineered from its GDS layout alone |
-| [Recurrent Small LMs](https://github.com/themythofsisyphusjayant/RECURRENT-SMALL-LMS) | NeurIPS-style technical report (22 pages) on recurrent small language models |
-| [NYX Phoenix Migration](https://github.com/themythofsisyphusjayant/harshswarm-) | Enterprise multi-agent simulation platform — NYX migrated from Streamlit to Next.js + FastAPI, same deterministic kernel, zero logic loss |
-| [TINY8](https://github.com/themythofsisyphusjayant/TINY8) | An 8-bit CPU built from zero in Verilog — sum 1..10 = 55, verified two ways |
+These are manuscripts hosted on GitHub, not peer-reviewed publications.
+
+- **[Provenance-Aware Belief Aggregation in Multi-Agent Communication Under Convention Heterogeneity](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION)** — a 17-page manuscript. When agents report through different communication conventions, weighting messages by source reliability answers the wrong question. This work proves structural limits of scalar trust weighting and introduces a Bayesian aggregator that decodes messages through inferred latent conventions. Headline runs over 190 seeds, fully reproducible.
+- **[Recurrent Small Language Models](https://github.com/themythofsisyphusjayant/RECURRENT-SMALL-LMS)** — a 22-page technical report. It measures whether recurrent transformers gain anything from running extra loops at test time: perplexity falls from 29.4 to 4.4 as loops go from 1 to 4, then flatlines — extra loops buy nothing.
+
+## Tools
+
+Python · PyTorch · C · Verilog · NumPy · LaTeX · Git · RISC-V
 
 ---
 
-### Featured work
-
-**[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** — a programming language built from scratch: static types, no null, immutable by default, checked arithmetic, native/WASM/RISC-V backends, and a freestanding mode on the road to a from-scratch OS. v2.0.0, [on PyPI](https://pypi.org/project/qasida/).
-
-**[big32](https://github.com/themythofsisyphusjayant/BIG-32)** — a 32-bit RISC-V CPU built from zero in Verilog, now booting a Linux kernel (6.6.52) into early driver init. SBI firmware, device tree, CLINT, PLIC, virtio block, packet networking — a full SoC, not just a core.
-
-**[Provenance-Aware Belief Aggregation](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION)** — when agents report through different communication conventions, weighting messages by source reliability answers the wrong question. This work proves structural limits of scalar trust weighting and introduces a Bayesian aggregator that decodes messages through inferred latent conventions. 17-page manuscript, headline runs over 190 seeds. [Beginner explainer](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION/blob/main/EXPLAINED_FOR_BEGINNERS.md)
-
-**[OpenMythos](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM)** — a from-scratch recurrent language model: does weight-shared recurrent iteration buy effective depth more cheaply than wider layers? 44M on TinyStories (one T4): loop depth 4 loss 1.484 vs depth-1 baseline 3.380 — but depth 8 is worse, so extrapolation is scale- and task-dependent. 1B config (1.06B params) ready. [44M report](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM/blob/main/research/44m_experiment_report.md)
-
-**[Nyx — Decision Intelligence Simulator](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI)** — give it a hard decision and a miniature society of AI agents debates it, with a deterministic kernel (same seed, same outcome) and a strategic forecast of risks and influencers. [Live demo](https://nyx-crystal-ai.lovable.app/)
-
-**[Jane Street ASIC Puzzle 2026 — solved](https://github.com/themythofsisyphusjayant/ASIC-PUZZLE-2026-SOLUTION)** — reverse-engineered a chip from its GDS layout alone, by four independent methods that all agreed. Serial-key lock, 121-bit key, flag `(* TWO STARS *)`. Published after submissions closed; nothing was submitted.
-
----
-
-### Explained for beginners
-
-Plain-language explainers, one analogy per project, with verified vs reported vs plan-only labels:
-[PVI](https://github.com/themythofsisyphusjayant/PROVENANCE-AWARE-BELIEF-AGGREGATION/blob/main/EXPLAINED_FOR_BEGINNERS.md) · [Nyx](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI/blob/main/docs/EXPLAINED_FOR_BEGINNERS.md) · [OpenMythos 44M](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM/blob/main/research/44m-explained-for-beginners.md) · [MiniMythos 125M](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM/blob/main/research/minimythos-125m-explained-for-beginners.md) · [1B roadmap](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM/blob/main/research/1b-roadmap-explained-for-beginners.md) · [ASIC puzzle](https://github.com/themythofsisyphusjayant/ASIC-PUZZLE-2026-SOLUTION/blob/main/EXPLAINED_FOR_BEGINNERS.md)
-
----
-
-### Education
-
-- **BS in Computer Science** — University of the People (WSCUC-accredited) — Student ID: C211425106
-- **B.Tech in Computer Science &amp; Engineering** — IMS Engineering College (AKTU)
-
----
-
-### My contributions, in 3D
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph, green" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph, seasonal" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=themythofsisyphusjayant&theme=dark" alt="GitHub streak" height="160">
-</p>
-
----
-
-### What I work with
-
-`Python` · `PyTorch` · `C` · `Verilog` · `NumPy` · `LaTeX` · `Git` · `RISC-V`
-
-**Interests:** programming languages · compilers · operating systems · small language models · multi-agent systems · Bayesian inference · hardware
-
----
-
-<p align="center">
-  📫 Reach me: <a href="mailto:dubeymaya787@gmail.com">dubeymaya787@gmail.com</a>
-</p>
+Contact: [dubeymaya787@gmail.com](mailto:dubeymaya787@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy)
