@@ -47,6 +47,10 @@ Safe mode vs C `-O3`, median of 5 runs, re-tested 20 Nov 2026. Ratio below 1 mea
 
 Black–Scholes and Monte Carlo run at parity with, or faster than, C. The tick and matrix-multiply gaps are known and under active work — tick traces to a single accumulator site, matrix multiply to buffer provenance in safe mode.
 
+![Qasida vs C -O3 quant benchmarks](docs/qasida-benchmarks.png)
+
+*Qasida runtime relative to C `-O3`, safe mode, median of 5 runs, re-tested 20 Nov 2026. The dashed line marks parity with C (1.00×); bars to its left run faster than C.*
+
 ### Recurrent small language models — loop-depth sweep
 
 Perplexity vs number of loops at test time (trained depth: 4). Extra loops past the trained depth buy nothing.
@@ -54,6 +58,10 @@ Perplexity vs number of loops at test time (trained depth: 4). Extra loops past 
 | Loops | 1 | 2 | 4 (trained) | 8 | 12 | 16 |
 |---|---|---|---|---|---|---|
 | Perplexity | 29.38 | 11.18 | 4.41 | 4.90 | 4.91 | 4.91 |
+
+![Loop-depth sweep: perplexity vs test-time loops](docs/loop-depth-sweep.png)
+
+*Perplexity vs test-time loop count (trained depth: 4 loops), from the [Recurrent Small Language Models](https://github.com/themythofsisyphusjayant/RECURRENT-SMALL-LMS) technical report. Extra loops past the trained depth buy nothing.*
 
 ### OpenMythos 44M — a negative result, reported
 
