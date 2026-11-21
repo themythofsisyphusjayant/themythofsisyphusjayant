@@ -1,15 +1,11 @@
 <div align="center">
 
-# Jayant Dubey
+![Jayant Dubey — Building the stack myself](docs/banner.png)
 
-**B.Tech Computer Science & Engineering, IMS Engineering College (AKTU) · BS Computer Science, University of the People**
-
-Building the stack myself — the language, the CPU it runs on, and the operating system on top.
-
-[![Qasida v2.3.0](https://img.shields.io/badge/Qasida-v2.3.0-1DB595?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/releases/tag/v2.3.0)
-[![PyPI](https://img.shields.io/pypi/v/qasida.svg?style=flat-square)](https://pypi.org/project/qasida/)
-[![Compiler: self-hosted](https://img.shields.io/badge/compiler-self--hosted-1DB595?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/blob/main/LICENSE)
+[![Qasida v2.3.0](https://img.shields.io/badge/Qasida-v2.3.0-C08A7E?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/releases/tag/v2.3.0)
+[![PyPI](https://img.shields.io/pypi/v/qasida.svg?style=flat-square&color=B08D57)](https://pypi.org/project/qasida/)
+[![Compiler: self-hosted](https://img.shields.io/badge/compiler-self--hosted-9CAF88?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-B08D57?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/blob/main/LICENSE)
 
 </div>
 
@@ -17,8 +13,8 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 <div align="center">
 
-![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&theme=tokyonight&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&theme=tokyonight&hide_border=true)
+![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&bg_color=FAF6F0&title_color=2B2622&text_color=5A5148&icon_color=C08A7E&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&bg_color=FAF6F0&title_color=2B2622&text_color=5A5148&hide_border=true)
 
 ![3D contribution graph](profile-3d-contrib/profile-green-animate.svg)
 
@@ -26,7 +22,7 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ---
 
-## Currently — November 2026
+## CURRENTLY — NOVEMBER 2026
 
 - **Qasida libs-only sprint week** — building out the standard library at 20 verified modules a day, OS work paused until 27 Nov. Top-500 catalogue: **HAVE 131 / 500** (21 Nov).
 - **Fix 1 and Fix 2 landed (21 Nov)** — safe mode now ties or beats C on every quant benchmark (see Results below). The C++-parity goal is met.
@@ -34,7 +30,7 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ---
 
-## Research interests
+## RESEARCH INTERESTS
 
 - **Multi-agent systems** — agents that communicate through different conventions disagree in ways scalar trust scores cannot fix; the interesting question is how beliefs should be decoded, not how much to weight them.
 - **Bayesian inference** — principled reasoning under uncertainty, applied to aggregating evidence from heterogeneous, unreliable sources.
@@ -43,9 +39,9 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ---
 
-## Featured work
+## FEATURED WORK
 
-| Project | What it is | Status / result |
+| PROJECT | WHAT IT IS | STATUS / RESULT |
 |---|---|---|
 | **[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** | A programming language built from scratch: static types, no null, immutable by default, checked arithmetic | v2.3.0 (16 Nov 2026), [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`). The compiler is self-hosting — it compiles itself — and has been the default since 11 Nov 2026. Native, WASM, and RISC-V backends; 30 registry packages; Top-500 catalogue HAVE 131/500. |
 | **[big32](https://github.com/themythofsisyphusjayant/BIG-32)** | A 32-bit RISC-V CPU built from zero in Verilog: pipelined RV32IMA core, SBI firmware, device tree, CLINT, PLIC, virtio block | Linux 6.6.52 boots in simulation into early driver initialisation; a full boot to shell is work in progress. Step 34 stall fix applied Nov 2026, probe pending. |
@@ -56,9 +52,9 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ---
 
-## Results
+## RESULTS
 
-### Qasida vs C — quant benchmarks
+### QASIDA VS C — QUANT BENCHMARKS
 
 Safe mode vs C, after Fix 1 and Fix 2 (21 Nov 2026). Ratio below 1 means Qasida is faster. Fix 1 closed the tick gap (a single checked add in the hot loop); Fix 2 closed matrix multiply (vectorised safe emit).
 
@@ -75,7 +71,7 @@ Safe mode vs C, after Fix 1 and Fix 2 (21 Nov 2026). Ratio below 1 means Qasida 
 
 *Qasida safe-mode runtime relative to C, after Fix 1 and Fix 2 (21 Nov 2026). The dashed line marks parity with C (1.00×); bars to its left run faster than C.*
 
-### Recurrent small language models — loop-depth sweep
+### RECURRENT SMALL LANGUAGE MODELS — LOOP-DEPTH SWEEP
 
 Perplexity vs number of loops at test time (trained depth: 4). Extra loops past the trained depth buy nothing.
 
@@ -87,13 +83,13 @@ Perplexity vs number of loops at test time (trained depth: 4). Extra loops past 
 
 *Perplexity vs test-time loop count (trained depth: 4 loops), from the [Recurrent Small Language Models](https://github.com/themythofsisyphusjayant/RECURRENT-SMALL-LMS) technical report. Extra loops past the trained depth buy nothing.*
 
-### OpenMythos 44M — a negative result, reported
+### OPENMYTHOS 44M — A NEGATIVE RESULT, REPORTED
 
 The 44M Stage-0 run on TinyStories does **not** show extrapolation gains: evaluation at loop depth 8 is significantly worse than at the trained depth. The extrapolation story now rests on the 1B loop-curriculum run, not on this result.
 
 ---
 
-## Manuscripts
+## MANUSCRIPTS
 
 These are manuscripts hosted on GitHub, not peer-reviewed publications.
 
@@ -102,9 +98,9 @@ These are manuscripts hosted on GitHub, not peer-reviewed publications.
 
 ---
 
-## Skills
+## SKILLS
 
-| Area | |
+| AREA | |
 |---|---|
 | **Languages** | Qasida · Python · C · Verilog |
 | **Systems** | RISC-V CPU design · Linux kernel boot · OS development (kernel, scheduler, filesystem, shell) |
