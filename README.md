@@ -1,13 +1,36 @@
+<div align="center">
+
 # Jayant Dubey
 
-[![Qasida v2.3.0](https://img.shields.io/badge/Qasida-v2.3.0-blue)](https://github.com/themythofsisyphusjayant/RED-MOON-/releases/tag/v2.3.0)
-[![PyPI](https://img.shields.io/pypi/v/qasida.svg)](https://pypi.org/project/qasida/)
-[![Compiler: self-hosted](https://img.shields.io/badge/compiler-self--hosted-brightgreen)](https://github.com/themythofsisyphusjayant/RED-MOON-)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/themythofsisyphusjayant/RED-MOON-/blob/main/LICENSE)
+**B.Tech Computer Science & Engineering, IMS Engineering College (AKTU) · BS Computer Science, University of the People**
 
-B.Tech in Computer Science & Engineering, IMS Engineering College (AKTU), and BS in Computer Science, University of the People.
+Building the stack myself — the language, the CPU it runs on, and the operating system on top.
 
-I work on multi-agent systems, Bayesian inference, small language models, and hardware built from zero. Most of my work is building the stack myself: the language, the CPU it runs on, and the operating system on top. The through-line is measurement — claims in my projects are backed by runs, with the negative results reported alongside the positive ones.
+[![Qasida v2.3.0](https://img.shields.io/badge/Qasida-v2.3.0-1DB595?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/releases/tag/v2.3.0)
+[![PyPI](https://img.shields.io/pypi/v/qasida.svg?style=flat-square)](https://pypi.org/project/qasida/)
+[![Compiler: self-hosted](https://img.shields.io/badge/compiler-self--hosted-1DB595?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/blob/main/LICENSE)
+
+</div>
+
+I work on multi-agent systems, Bayesian inference, small language models, and hardware built from zero. The through-line is measurement — claims in my projects are backed by runs, with the negative results reported alongside the positive ones.
+
+<div align="center">
+
+![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&theme=tokyonight&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&theme=tokyonight&hide_border=true)
+
+![3D contribution graph](profile-3d-contrib/profile-green-animate.svg)
+
+</div>
+
+---
+
+## Currently — November 2026
+
+- **Qasida libs-only sprint week** — building out the standard library at 20 verified modules a day, OS work paused until 27 Nov. Top-500 catalogue: **HAVE 131 / 500** (21 Nov).
+- **Fix 1 and Fix 2 landed (21 Nov)** — safe mode now ties or beats C on every quant benchmark (see Results below). The C++-parity goal is met.
+- **big32 Step 34** — the two-part stall fix is in and the rebuild is green; the ~20-hour boot probe is next.
 
 ---
 
@@ -22,12 +45,14 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ## Featured work
 
-- **[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** — a programming language built from scratch: static types, no null, immutable by default, checked arithmetic. v2.3.0 (16 Nov 2026), [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`). The compiler is self-hosting — it compiles itself — and has been the default since 11 Nov 2026. Native, WASM, and RISC-V backends; freestanding mode in progress. Key result: 713 `.fg` files, ~50,000 lines of Qasida, 30 registry packages, all in the language itself.
-- **[big32](https://github.com/themythofsisyphusjayant/BIG-32)** — a 32-bit RISC-V CPU built from zero in Verilog: a pipelined RV32IMAC core, SBI firmware, device tree, CLINT, PLIC, virtio block. Linux 6.6.52 boots in simulation into early driver initialisation; a full boot to shell is work in progress.
-- **[MOON-OS](https://github.com/themythofsisyphusjayant/MOON-OS)** — an operating system written entirely in Qasida, targeting big32, with no Linux anywhere. Kernel, scheduler, filesystem, shell, and GUI are in progress; freestanding kernels run on big32. Key result: a unified kernel (866 lines) integrating all subsystems on one memory map, with its test suite passing 7/7.
-- **[OpenMythos](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM)** — a miniature recurrent language model built from scratch and trained on a single T4. The 44M model trained on TinyStories; a 1.06B configuration is written, not yet trained. Key result: the 44M run is a reported negative result — extra loop depth at evaluation does not improve TinyStories loss (see below).
-- **[Nyx](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI)** — a deterministic decision-intelligence simulator: a miniature society of agents debates a hard decision and produces a strategic forecast of risks and fragile assumptions. Same seed, same outcome. [Live demo](https://nyx-crystal-ai.lovable.app/)
-- **[Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-)** — an Arch-based Linux distribution with a macOS-style desktop, shipping JalOS, a teaching operating system written in Qasida. Bootable ISO built October 2026.
+| Project | What it is | Status / result |
+|---|---|---|
+| **[Qasida](https://github.com/themythofsisyphusjayant/RED-MOON-)** | A programming language built from scratch: static types, no null, immutable by default, checked arithmetic | v2.3.0 (16 Nov 2026), [on PyPI](https://pypi.org/project/qasida/) (`pip install qasida`). The compiler is self-hosting — it compiles itself — and has been the default since 11 Nov 2026. Native, WASM, and RISC-V backends; 30 registry packages; Top-500 catalogue HAVE 131/500. |
+| **[big32](https://github.com/themythofsisyphusjayant/BIG-32)** | A 32-bit RISC-V CPU built from zero in Verilog: pipelined RV32IMA core, SBI firmware, device tree, CLINT, PLIC, virtio block | Linux 6.6.52 boots in simulation into early driver initialisation; a full boot to shell is work in progress. Step 34 stall fix applied Nov 2026, probe pending. |
+| **[MOON-OS](https://github.com/themythofsisyphusjayant/MOON-OS)** | An operating system written entirely in Qasida, targeting big32, with no Linux anywhere | Kernel, scheduler, filesystem, shell, and GUI in progress; freestanding kernels run on big32. Unified kernel integrating all subsystems on one memory map. |
+| **[OpenMythos](https://github.com/themythofsisyphusjayant/OPENMYTHOS-RLM)** | A miniature recurrent language model built from scratch and trained on a single T4 | The 44M model trained on TinyStories; a 1.06B configuration is written, not yet trained. Key result: the 44M run is a reported negative result — extra loop depth at evaluation does not improve TinyStories loss (see below). |
+| **[Nyx](https://github.com/themythofsisyphusjayant/NYX-CRYSTAL-AI)** | A deterministic decision-intelligence simulator: a miniature society of agents debates a hard decision and produces a strategic forecast of risks and fragile assumptions | Same seed, same outcome. [Live demo](https://nyx-crystal-ai.lovable.app/) |
+| **[Black Moon OS](https://github.com/themythofsisyphusjayant/BLACK-MOON-OS-)** | An Arch-based Linux distribution with a macOS-style desktop, shipping JalOS, a teaching operating system written in Qasida | Bootable ISO built October 2026. |
 
 ---
 
@@ -35,21 +60,20 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 ### Qasida vs C — quant benchmarks
 
-Safe mode vs C `-O3`, median of 5 runs, re-tested 20 Nov 2026. Ratio below 1 means Qasida is faster.
+Safe mode vs C, after Fix 1 and Fix 2 (21 Nov 2026). Ratio below 1 means Qasida is faster. Fix 1 closed the tick gap (a single checked add in the hot loop); Fix 2 closed matrix multiply (vectorised safe emit).
 
-| Benchmark | Qasida / C -O3 |
+| Benchmark | Qasida / C |
 |---|---:|
-| Order-book update | 1.10× |
-| Tick processing | 3.49× |
-| Black–Scholes | 0.97× |
-| Monte Carlo | 0.84× |
-| Matrix multiply | 1.99× |
+| Matrix multiply | 0.44× |
+| Monte Carlo | 0.75× |
+| Black–Scholes | 0.92× |
+| Black–Scholes (call) | 0.94× |
+| Tick processing | 0.99× |
+| Order-book update | 1.06× |
 
-Black–Scholes and Monte Carlo run at parity with, or faster than, C. The tick and matrix-multiply gaps are known and under active work — tick traces to a single accumulator site, matrix multiply to buffer provenance in safe mode.
+![Qasida vs C quant benchmarks](docs/qasida-benchmarks.png)
 
-![Qasida vs C -O3 quant benchmarks](docs/qasida-benchmarks.png)
-
-*Qasida runtime relative to C `-O3`, safe mode, median of 5 runs, re-tested 20 Nov 2026. The dashed line marks parity with C (1.00×); bars to its left run faster than C.*
+*Qasida safe-mode runtime relative to C, after Fix 1 and Fix 2 (21 Nov 2026). The dashed line marks parity with C (1.00×); bars to its left run faster than C.*
 
 ### Recurrent small language models — loop-depth sweep
 
@@ -89,4 +113,8 @@ These are manuscripts hosted on GitHub, not peer-reviewed publications.
 
 ---
 
+<div align="center">
+
 Contact: [dubeymaya787@gmail.com](mailto:dubeymaya787@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy)
+
+</div>
