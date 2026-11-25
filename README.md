@@ -13,8 +13,8 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 <div align="center">
 
-![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&bg_color=FAF6F0&title_color=2B2622&text_color=5A5148&icon_color=C08A7E&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&bg_color=FAF6F0&title_color=2B2622&text_color=5A5148&hide_border=true)
+![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&bg_color=2B2622&title_color=B08D57&text_color=FAF6F0&icon_color=C08A7E&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&bg_color=2B2622&title_color=B08D57&text_color=FAF6F0&hide_border=true)
 
 ![3D contribution graph](profile-3d-contrib/profile-green-animate.svg)
 
