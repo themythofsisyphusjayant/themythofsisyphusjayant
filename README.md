@@ -1,6 +1,6 @@
 <div align="center">
 
-![Jayant Dubey — Building the stack myself](docs/banner.png)
+![Jayant Dubey — Building the stack myself](docs/banner.png?v=2)
 
 [![Qasida v2.3.0](https://img.shields.io/badge/Qasida-v2.3.0-C08A7E?style=flat-square)](https://github.com/themythofsisyphusjayant/RED-MOON-/releases/tag/v2.3.0)
 [![PyPI](https://img.shields.io/pypi/v/qasida.svg?style=flat-square&color=B08D57)](https://pypi.org/project/qasida/)
