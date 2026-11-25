@@ -13,8 +13,12 @@ I work on multi-agent systems, Bayesian inference, small language models, and ha
 
 <div align="center">
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white) ![Qasida](https://img.shields.io/badge/Qasida-B08D57?style=flat-square) ![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
 ![Jayant's GitHub stats](https://github-readme-stats.vercel.app/api?username=themythofsisyphusjayant&show_icons=true&bg_color=2B2622&title_color=B08D57&text_color=FAF6F0&icon_color=C08A7E&hide_border=true)
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=themythofsisyphusjayant&layout=compact&bg_color=2B2622&title_color=B08D57&text_color=FAF6F0&hide_border=true)
+
+![GitHub streak](https://streak-stats.demolab.com/?user=themythofsisyphusjayant&background=2B2622&ring=B08D57&fire=C08A7E&currStreakNum=FAF6F0&sideNums=FAF6F0&sideLabels=FAF6F0&dates=FAF6F0&currStreakLabel=FAF6F0&hide_border=true)
 
 ![3D contribution graph](profile-3d-contrib/profile-green-animate.svg)
 
@@ -124,6 +128,8 @@ These are manuscripts hosted on GitHub, not peer-reviewed publications.
 
 <div align="center">
 
-Contact: [dubeymaya153@gmail.com](mailto:dubeymaya153@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy) · [Instagram](https://www.instagram.com/harshhd.wivedii/)
+Contact: [dubeymaya153@gmail.com](mailto:dubeymaya153@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy) · [Instagram](https://www.instagram.com/harshhd.wivedii/) · [LinkedIn](https://www.linkedin.com/in/jayant-dubey-a8a438289/)
 
 </div>
+
+![Profile views](https://komarev.com/ghpvc/?username=themythofsisyphusjayant&color=B08D57&style=flat-square&label=Profile+views)
