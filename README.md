@@ -124,6 +124,6 @@ These are manuscripts hosted on GitHub, not peer-reviewed publications.
 
 <div align="center">
 
-Contact: [dubeymaya153@gmail.com](mailto:dubeymaya153@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy)
+Contact: [dubeymaya153@gmail.com](mailto:dubeymaya153@gmail.com) · [Kaggle](https://www.kaggle.com/arshhdubeyy) · [Instagram](https://www.instagram.com/harshhd.wivedii/)
 
 </div>
